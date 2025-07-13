@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+textarea {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+form {
+    text-align: center;
+}
+
+#botao-contato {
+    font-size: larger;
+    border-radius: 10px;
+    background-color: #5a9d45;
+    color: #fff;
+    border: 2px solid #000000;
+    padding: 4px;   
+}
+
+#botao-contato:hover {
+    background-color: #35607d;
+  cursor: pointer;
+}
+
+.contato {
+    justify-content: center;
+    background-color: #442222;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: #d62839 0px 0px 10px, #d62839 0px 0px 200px;
+    text-align: start;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 650px;
+    margin-bottom: 100px;    
+}
+
+.form-contato {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
