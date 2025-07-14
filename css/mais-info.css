@@ -25,7 +25,7 @@ img {
     padding-left: 100px;
 }
 
-h2 {
+h2#inf-h2 {
     padding-right: 10px;
     padding-left: 100px;
     font-size: 30px;

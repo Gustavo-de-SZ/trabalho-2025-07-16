@@ -18,8 +18,12 @@
       width: 220px;
       height: 300px;
       border-radius: 10px;
+<<<<<<< HEAD
     box-shadow: #d62839 0px 0px 10px, #d62839 0px 0px 200px inset;
       color: #ffffff;
+=======
+      box-shadow: #d62839 0px 0px 10px, #d62839 0px 0px 200px;
+>>>>>>> 5df6ad79975b1e144b83455baa05c4c007e8feed
       padding: 15px;
       text-align: center;
       transition: transform 0.3s;
@@ -40,7 +44,7 @@
     .nome {
       font-size: 1.2em;
       font-weight: bold;
-      color: #e6dede;
+      color: #ffffff;
     }
 
     .cargo {

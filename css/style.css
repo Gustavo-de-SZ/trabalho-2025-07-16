@@ -73,12 +73,26 @@ footer {
    align-items: center;
    justify-content: center;
 }
-
 .nav-botao:hover {
    background-color: #3d0719;
+   box-shadow: #d62839 0px 0px 1px,#d62839 0px 0px 50px;
 
 }
 
+.nav-botao-maior {
+   width: 200px;
+   height: 100%;
+   text-decoration: none;
+   color: #fff;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.nav-botao-maior:hover {
+   background-color: #3d0719;
+   box-shadow: #d62839 0px 0px 1px,#d62839 0px 0px 50px;
+}
 #botao-sair {
    background-color: #cd2737ac;
    border-radius: 5px;
