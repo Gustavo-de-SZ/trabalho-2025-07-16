@@ -2,7 +2,7 @@
 
     h1 {
       text-align: center;
-      color: #ffffff;
+      color: #696262;
       margin-bottom: 40px;
     }
 
@@ -16,8 +16,10 @@
     .box {
       background-color: rgb(82, 77, 77);
       width: 220px;
+      height: 300px;
       border-radius: 10px;
-     box-shadow: #d62839 0px 0px 10px, #d62839 0px 0px 200px;
+    box-shadow: #d62839 0px 0px 10px, #d62839 0px 0px 200px inset;
+      color: #ffffff;
       padding: 15px;
       text-align: center;
       transition: transform 0.3s;
@@ -29,7 +31,7 @@
 
     .box img {
       width: 100px;
-      height: 100px;
+      height: 200px;
       border-radius: 50%;
       object-fit: cover;
       margin-bottom: 10px;
@@ -42,7 +44,7 @@
     }
 
     .cargo {
-      color: #1d0202;
+      color: #410404;
       margin: 5px 0;
     }
 
