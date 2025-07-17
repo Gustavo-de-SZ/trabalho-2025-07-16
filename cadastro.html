@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form action="login.html" method="post">
+    <label for="campo-nome">Nome</label>
+    <input type="text" minlength="3" maxlength="40" required id="campo-nome" name="Nome">
+    
+    <label for="campo-nascimento">Data de Nascimento</label>
+    <input type="date" required id="campo-nascimento" name="Data de Nascimento">
+
+    
+    <label for="campo-email">E-mail</label>
+    <input type="email" required id="campo-email" name="E-mail">
+
+    
+    <label for="campo-cel">Celular</label>
+    <input type="tel" required id="campo-cel" name="Celular">
+
+    
+    <label for="campo-cpf">CPF</label>
+    <input type="text" required id="campo-cpf" name="CPF">
+
+    <h2>Endereço</h2>
+    
+    <label for="campo-rua">Logradouro</label>
+    <input type="text" required id="campo-rua" name="Logradouro">
+
+    
+    <label for="campo-cep">CEP</label>
+    <input type="text" required id="campo-cep" name="CEP">
+
+    <h2>Tipo:</h2>
+    <input type="radio" id="campo-casa" name="escolha" value="casa">
+    <label for="campo-casa">Casa</label>
+    
+    <input type="radio" id="campo-apartamento" name="escolha" value="Apartamento">
+    <label for="campo-apartamento">Apartamento</label>
+
+    <button type="submit">Cadastrar</button>
+    </form>
+ </body>
+</html>
