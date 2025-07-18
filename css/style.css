@@ -1,60 +1,73 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+   margin: 0;
+   padding: 0;
 }
- body{
-    background-color: rgb(1, 3, 19);
- }
 
- header{
-    background-color:  #3d0719;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+body {
+   background-color: rgb(1, 3, 19);
+}
 
- }
+header {
+   background-color: #3d0719;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
 
- .icone {
-    background-image: url('assets/icon-francisco');
-    width: 250px;
-    height: 235px;
-    background-size: cover;
-    transition: background-image 0.1s ease;
 
- }
- 
- .icone:hover{
-    background-image: url("assets/icon-francisco-sorrindo");
- }
+nav {
+   background-color: #310313;
+   width: 100%;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 40px;
+}
 
- .letreiro{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 50px;
-    color: #fff;
- }
 
- nav {
-    background-color:  #310313;
-    width: 100%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
- }
+footer {
+   color: #fff;
+   background-color: #442222;
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 80px;
+   align-items: center;
+}
 
- .nav-botao{
-    width: 100px;
-    height: 100%;
-    text-decoration: none;
-    color: #fff;
-    text-align: center;
- }
+.icone {
+   background-image: url('assets/icon-francisco');
+   width: 250px;
+   height: 235px;
+   background-size: cover;
+   transition: background-image 0.1s ease;
 
- a:hover{
-        background-color:  #3d0719;
+}
 
- }
+.icone:hover {
+   background-image: url("assets/icon-francisco-sorrindo");
+}
+
+.letreiro {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   font-size: 50px;
+   color: #fff;
+   padding-left: 100px;
+}
+
+.nav-botao {
+   width: 100px;
+   height: 100%;
+   text-decoration: none;
+   color: #fff;
+   text-align: center;
+}
+
+a:hover {
+   background-color: #3d0719;
+
+}
