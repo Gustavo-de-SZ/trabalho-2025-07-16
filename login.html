@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
+
 <body>
-    <header>
-        <nav> 
-            <a href="">Home</a>
-            <a href="">Imoveis</a>
-            <a href="">Contato</a>
-            <a href="">Equipe</a>
-            <a href="">Login</a>
-            <a href="">Cadastre-se</a>
-        </nav>
-      
-    <form action="home.html" method="get">
-    <br>
-    <label for="campo-email">Email</label>
-    <input type="email" required minlength="10" maxlength="40" id="campo-email" name="Email" placeholder="digite seu e-mail">
-    <br>
-    <label for="campo-senha">Senha</label>
-    <input type="text" required minlength="8" maxlength="24" id="campo-senha" name="Senha" placeholder="digite sua senha">
-<br>
- <button type="submit">Enviar</button>
-<br>
+    </head>
 
-</form>
-<form action="cadastre-se">
-<h1>Não tem um login? Cadastre-se abaixo!</h1>
-<button type="submit">Cadastre-se!</button>
+    <body>
+        <header>
+            <nav>
+                <a class="nav-botao" href="imoveis.html">Produtos</a>
+                <a class="nav-botao" href="contato.html">Contato</a>
+                <a class="nav-botao" href="equipe.html">Equipe</a>
+                <a class="nav-botao" href="login.html">Login</a>
+                <a class="nav-botao" href="cadastro.html">Cadastre-se</a>
+                <a class="nav-botao" href="sobre.html">Sobre</a>
+            </nav>
 
-</form>
+            <div class="letreiro">
+                <h2>GEEK</h2>
+                <div class="icone"></div>
+                <H2>COMICS</H2>
+                </vdiv>
 
-</body>
+        </header>
+        <form action="home.html" method="get">
+            <label class="campo-email" for="campo-email"></label>
+            <input type="email" required minlength="10" maxlength="40" id="campo-email" name="Email"
+                placeholder="E-mail">
+            <label class="campo-senha" for="campo-senha"></label>
+            <input type="text" required minlength="8" maxlength="24" id="campo-senha" name="Senha" placeholder="Senha">
+            <br>
+            <button class="botao-login" type="submit">Enviar</button>
+
+            <br>
+            <h2>Não tem um cadastro? cadastre-se abaixo!</h2>
+            <button class="botao-cadastro" type="submit">Cadastre-se!</button>
+        </form>
+    </body>
+
 </html>
