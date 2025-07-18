@@ -1,0 +1,88 @@
+
+main{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+table{
+    background-color: #442222;
+    color: #fff;
+    border: 2px solid #552a2a;
+    border-radius: 30px;
+    text-align: center;
+}
+
+td{
+    padding: 10px;
+    border-top: 2px solid red;
+}
+
+h1{
+    font-size: 100px;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+td {
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+footer {
+    color: #fff;
+    background-color: #442222;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+}
+
+.tabelas {
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao-comprar {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(9, 116, 14);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.botao-comprar:hover {
+    background-color: rgb(14, 207, 24);
+}
+
+.capas {
+    width: 200px;
+    border: 2px solid red;
+}
+
+.mais-inf{
+    font-size: 25px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.mais-inf:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+#descricao {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    padding-top: 200px;
+    width: 500px;
+    height: 250px;
+    gap: 50px;
+}
+
+#thtd{
+    border-top: 0px solid;
+}
