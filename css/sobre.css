@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+
+
+}
+h1{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+main{
+    background-image: url(assets/fundo4.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+     }

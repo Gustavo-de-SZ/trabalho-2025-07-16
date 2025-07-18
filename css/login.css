@@ -1,4 +1,12 @@
-form {
+
+
+h2{
+  color: #fff;
+  text-align: center;
+}
+
+
+main {
     background-color: black;
     padding: 40px;
     border-radius: 10px;
@@ -14,10 +22,14 @@ form {
     font-size: 10px;
 }
 
-label {
-  margin-bottom: 0.5rem;
-    font-weight: bold;
+
+.div-login{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
+
 input {
     width: 200px;
     padding: 5px;
@@ -37,7 +49,6 @@ input {
   font-size: 10px;
   font-weight: bold;
   cursor: pointer;
-  transition: background 0.3s;
 }
 
 .botao-login {

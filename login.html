@@ -9,9 +9,6 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 
-<body>
-    </head>
-
     <body>
         <header>
             <nav>
@@ -30,6 +27,8 @@
                 </vdiv>
 
         </header>
+        <main>
+            <div class="divlogin">
         <form action="home.html" method="get">
             <label class="campo-email" for="campo-email"></label>
             <input type="email" required minlength="10" maxlength="40" id="campo-email" name="Email"
@@ -38,11 +37,18 @@
             <input type="text" required minlength="8" maxlength="24" id="campo-senha" name="Senha" placeholder="Senha">
             <br>
             <button class="botao-login" type="submit">Enviar</button>
-
+            <h2>Não tem um cadastro?
+                <br>
+                cadastre-se abaixo!</h2>
             <br>
-            <h2>Não tem um cadastro? cadastre-se abaixo!</h2>
-            <button class="botao-cadastro" type="submit">Cadastre-se!</button>
+       
         </form>
+          
+        <form action="cadastro.html"  method="get" >
+        <button class="botao-cadastro" type="submit">Cadastre-se!</button>
+    </form>
+        </div>
+        </main>
     </body>
 
 </html>
