@@ -1,13 +1,39 @@
 body {
     margin: 0px;
     padding: 0px;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
     font-size: larger;
+}
+
+form {
+    background-color: #442222;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: #d62839 0px 0px 100px;
+    text-align: start;
+    align-items: center;
+    display: inline-block;  
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
 }
 
 .revenda {
     margin-top: 10px;
     color: #fff;
     text-align: center;
+}
+
+.botao {
+     display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .postar {
