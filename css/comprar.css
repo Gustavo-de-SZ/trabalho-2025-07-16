@@ -15,6 +15,13 @@ form {
 
 }
 
+img {
+    width: 200px;
+    align-items: center;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+}
+
 button {
     font-size: larger;
     border-radius: 10px;
@@ -29,7 +36,7 @@ button:hover {
 
 }
 
-.corpo-pagamento {
+.corpo-comprar {
     background-color: #442222;
     color: #fff;
     box-shadow: #d62839 0px 0px 10px, #d62839 0px 0px 200px;
@@ -38,6 +45,12 @@ button:hover {
     border-radius: 10px;
     margin-top: 150px;
     margin-bottom: 150px;
+}
+
+.img-comprar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
 }
 
 .botao-comprar {

@@ -22,8 +22,13 @@
             </vdiv>
     </header>
     <main>
-        <div class="corpo-pagamento">
+        <div class="corpo-comprar">
             <form action="home.php" method="get">
+
+                <div class="img-comprar">
+                    <img src="../../../css/assets/supergirl" alt="">
+                </div>
+                <input type="number" required id="campo-quantidade" name="quantidade" min="1" max="92" value="1">
                 <h1>Pagamento</h1>
 
                 <label for="campo-nome-completo">Nome completo</label>
@@ -41,10 +46,11 @@
 
 
                 <label for="campo-cvv-cartao">Código de segurança (CVV)</label>
-                <input type="tel" required id="campo-cvv-cartao" name="cvv-cartao" minlength="3" maxlength="3" placeholder="000">
+                <input type="tel" required id="campo-cvv-cartao" name="cvv-cartao" minlength="3" maxlength="3"
+                    placeholder="000">
 
 
-                <h3>Tipo de cartão</h3>
+                <h2>Tipo de cartão</h2>
                 <div>
                     <input type="radio" required id="campo-cartao-mastercard" name="tipo-cartao" value="mastercard">
                     <label for="campo-cartao-mastercard">MasterCard</label>
