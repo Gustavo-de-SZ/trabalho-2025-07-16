@@ -1,17 +1,16 @@
 body{
     margin: 0px;
-    color: #fff;
+    color: #eae8e8;
     text-align: center;
-    font-size: 12px;
-
-
-}
-h1{
-    padding-left: 300px;
-    padding-right: 300px;
-}
-main{
+    font-size: 21px;
+    min-height: 100vh;
     background-image: url(assets/fundo4.png) ;
     background-repeat: no-repeat;
     background-size: cover;
-     }
+}
+
+main{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
