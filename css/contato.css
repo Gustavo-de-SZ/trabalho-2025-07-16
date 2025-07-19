@@ -1,10 +1,6 @@
-body {
-    margin: 0px;
-    padding: 0px;
-}
 
 h1 {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -43,12 +39,13 @@ form {
 
 #botao-contato:hover {
     background-color: #35607d;
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .contato {
     justify-content: center;
     background-color: #442222;
+    color: #fff;
     padding: 40px;
     border-radius: 10px;
     box-shadow: #d62839 0px 0px 10px, #d62839 0px 0px 200px;
