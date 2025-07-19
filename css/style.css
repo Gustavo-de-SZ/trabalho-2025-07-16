@@ -21,7 +21,6 @@ header {
    align-items: center;
 }
 
-
 nav {
    background-color: #310313;
    width: 100%;
@@ -62,7 +61,6 @@ footer {
    align-items: center;
    font-size: 50px;
    color: #fff;
-   padding-left: 100px;
 }
 
 .nav-botao {
@@ -73,7 +71,7 @@ footer {
    text-align: center;
 }
 
-a:hover {
+.nav-botao:hover {
    background-color: #3d0719;
 
 }
