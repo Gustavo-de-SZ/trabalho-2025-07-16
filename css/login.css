@@ -19,7 +19,7 @@ main {
     align-items: center;
     margin-top: 20px;
     color: #fff;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 
@@ -46,7 +46,7 @@ input {
   margin-top: 1px;
   border: solid 2px #ccc;
   border-radius: 5px;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
   cursor: pointer;
 }
