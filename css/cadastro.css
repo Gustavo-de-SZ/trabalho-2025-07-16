@@ -11,23 +11,27 @@ form {
     background-color: #442222;
     padding: 40px;
     border-radius: 10px;
-    box-shadow: #d62839 0px 0px 100px;
+  box-shadow: #d62839 0px 0px 10px, #d62839 0px 0px 200px;
     text-align: start;
     align-items: center;
     display: inline-block;  
     margin-bottom: 100px;
-    margin-top: 50px;
+    margin-top: 150px;
     
-}
-
-input {
-    border-radius: 5px;
-    padding: 5px;
 }
 
 label {
     margin-bottom: 0.5rem;
     font-weight: bold;
+}
+input {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+textarea {
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .cadastro {
