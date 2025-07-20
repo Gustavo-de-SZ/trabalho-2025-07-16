@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/cadastro.css">
+    <link rel="icon" href="../css/assets/francisco-cabeça.png">
     <title>Cadastro</title>
 </head>
 
@@ -23,37 +24,37 @@
 
     <form action="login.html" method="get">
         <div class="cadastro">
-            <h2>Seja Um Nerd Conosco!</h2>
+            <h1>Seja Um Nerd Conosco!</h1>
             <label for="campo-nome">Nome:</label>
-            <input type="text" minlength="3" maxlength="40" required id="campo-nome" name="Nome"
+            <input type="text" minlength="3" maxlength="40" required id="campo-nome" name="nome"
                 placeholder="Nome e sobrenome.">
         </div>
 
         <div class="cadastro">
             <label for="campo-nascimento">Data de Nascimento:</label>
-            <input type="date" required id="campo-nascimento" name="Data de Nascimento">
+            <input type="date" required id="campo-nascimento" name="data-nascimento">
         </div>
 
         <div class="cadastro">
             <label for="campo-email">E-mail:</label>
-            <input type="email" required id="campo-email" name="E-mail" placeholder="Digite seu e-mail aqui.">
+            <input type="email" required id="campo-email" name="e-mail" placeholder="Digite seu e-mail aqui.">
         </div>
 
         <div class="cadastro">
             <label for="campo-senha">Senha:</label>
-            <input type="password" required id="campo-senha" name="Senha" placeholder="Crie sua senha." minlength="8"
+            <input type="password" required id="campo-senha" name="senha" placeholder="Crie sua senha." minlength="8"
                 maxlength="12">
         </div>
 
         <div class="cadastro">
             <label for="campo-cel">Celular:</label>
-            <input type="tel" required id="campo-cel" name="Celular" minlength="13" maxlength="13" title="XX XXXXX-XXXX"
+            <input type="tel" required id="campo-cel" name="celular" minlength="13" maxlength="13" title="XX XXXXX-XXXX"
                 placeholder="00 00000-0000">
         </div>
 
         <div class="cadastro">
             <label for="campo-cpf">CPF:</label>
-            <input type="text" required id="campo-cpf" name="CPF" minlength="14" maxlength="14" title="XXX.XXX.XXX-XX"
+            <input type="text" required id="campo-cpf" name="cpf" minlength="14" maxlength="14" title="XXX.XXX.XXX-XX"
                 placeholder="000.000.000-00">
         </div>
 
@@ -61,21 +62,21 @@
 
         <div class="cadastro">
             <label for="campo-rua">Logradouro:</label>
-            <input type="text" required id="campo-rua" name="Logradouro" placeholder="Ex.: Gotham City.">
+            <input type="text" required id="campo-rua" name="logradouro" placeholder="Ex.: Gotham City.">
         </div>
 
         <div class="cadastro">
             <label for="campo-cep">CEP:</label>
-            <input type="text" required id="campo-cep" name="CEP" minlength="10" maxlength="10" title="XX.XXX-XXX"
+            <input type="text" required id="campo-cep" name="cep" minlength="10" maxlength="10" title="XX.XXX-XXX"
                 placeholder="00.000-000">
         </div>
 
         <h2>Tipo:</h2>
         <div class="cadastro">
-            <input type="radio" id="campo-casa" name="escolha" value="casa">
+            <input type="radio" required id="campo-casa" name="moradia" value="casa">
             <label for="campo-casa">Casa.</label>
 
-            <input type="radio" id="campo-apartamento" name="escolha" value="Apartamento">
+            <input type="radio" required id="campo-apartamento" name="moradia" value="apartamento">
             <label for="campo-apartamento">Apartamento.</label>
         </div>
 
@@ -90,5 +91,8 @@
         </div>
     </form>
 </body>
+<footer>
+    <h3>Desenvolvido pela equipe FCG</h3>
+</footer>
 
 </html>

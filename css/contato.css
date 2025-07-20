@@ -28,6 +28,10 @@ form {
     text-align: center;
 }
 
+ul {
+    padding-left: 20px;
+}
+
 #botao-contato {
     font-size: larger;
     border-radius: 10px;
@@ -53,7 +57,7 @@ form {
     display: inline-block;
     margin-top: 100px;
     margin-left: 620px;
-    margin-bottom: 100px;    
+    margin-bottom: 200px;    
 }
 
 .form-contato {

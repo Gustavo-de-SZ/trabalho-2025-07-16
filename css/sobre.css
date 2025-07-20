@@ -5,14 +5,15 @@ body{
     min-height: 100vh;
 }
 
-main{
-    margin-top: 200px;
+p {
+    padding-bottom: 50px;
+}
+.corpo-sobre {    
+    margin-top: 100px;
     margin-bottom: 200px;
     padding-left: 300px;
     padding-right: 300px;
     font-size: 21px;
     color: #eae8e8;
     text-align: center;
-
 }
-
