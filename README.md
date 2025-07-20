@@ -8,4 +8,4 @@ Projeto com intuito de conectar gerações distantes e buscar a interações ent
 interesse em conhecer e aprender mais sobre as Comics e quadrinhos de todas as épocas e estilos, fazendo com que eles sejam mais acessívos ao público.
 
 Implementações futuras com o uso do JS
-Função de carrinho para realizar as compras, histórico de compras, acesso on e off de forma mais eficaz.
+Função de carrinho para realizar as compras, histórico de compras, acesso on e off de forma mais eficaz, mais opções de pagamente, como pix e débito.
