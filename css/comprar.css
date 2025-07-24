@@ -58,6 +58,20 @@ button:hover {
     justify-content: center;
     margin-top: 40px;
 }
+
+.corpo-calcular {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.botao-calcular{
+    width: 80px;
+    height: 35px;
+    font-size: 15px;
+    
+}
+
 #campo-vencimento-cartao{
     width: 130px;
 }
@@ -65,3 +79,4 @@ button:hover {
 #campo-cvv-cartao {
     width: 50px;
 }
+
