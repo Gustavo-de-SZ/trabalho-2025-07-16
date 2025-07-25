@@ -6,7 +6,6 @@ body {
     background-image: url(assets/fundo4.png) ;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
 }
 
 main {
@@ -29,3 +28,11 @@ img {
     box-shadow: #d62839 0px 0px 10px, #d62839 0px 0px 200px;
 
 }
+
+@media(max-width: 768px) {
+
+      main {
+      padding: 100px 30px;
+   }
+}
+
